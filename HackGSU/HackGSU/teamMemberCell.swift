@@ -59,10 +59,10 @@ class teamMemberCell: UICollectionViewCell {
         profileImageView.heightAnchor.constraint(equalToConstant: 150).isActive = true
         
         
-        teamTextLabel.topAnchor.constraint(equalTo: profileImageView.bottomAnchor).isActive = true
+        teamTextLabel.topAnchor.constraint(equalTo: nameTextLabel.bottomAnchor).isActive = true
         teamTextLabel.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 1).isActive = true
         
-        nameTextLabel.topAnchor.constraint(equalTo: teamTextLabel.bottomAnchor).isActive = true
+        nameTextLabel.topAnchor.constraint(equalTo: profileImageView.bottomAnchor).isActive = true
         nameTextLabel.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 0.5).isActive = true
         
         

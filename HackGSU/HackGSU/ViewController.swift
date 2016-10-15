@@ -22,7 +22,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         var member2 = teamMember()
         member2.memberName = "Viraj Shah"
         member2.groupName = "iOS Developer"
-        member2.profileImageName = "virajPic"
+        member2.profileImageName = "vrPic"
         
         var member3 = teamMember()
         member3.memberName = "Harsha Goli"
@@ -30,32 +30,39 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         member3.profileImageName = "harshaPic"
         
         var member4 = teamMember()
-        member4.memberName = "Josh King"
-        member4.groupName = "Android Developer"
-        member4.profileImageName = "joshPic"
+        member4.memberName = "Dylan Welch"
+        member4.groupName = "iOS Developer"
+        member4.profileImageName = "dylanPic"
         
         var member5 = teamMember()
-        member5.memberName = "Pranathi Venigandla"
+        member5.memberName = "Josh King"
         member5.groupName = "Android Developer"
-        member5.profileImageName = "praPic"
+        member5.profileImageName = "joshPic"
         
         var member6 = teamMember()
-        member6.memberName = "Solomon Arnett"
-        member6.groupName = "Web Developer"
-        member6.profileImageName = "soloPic"
+        member6.memberName = "Pranathi Venigandla"
+        member6.groupName = "Android Developer"
+        member6.profileImageName = "praPic"
         
         var member7 = teamMember()
-        member7.memberName = "Sri Rajasekaran"
+        member7.memberName = "Solomon Arnett"
         member7.groupName = "Web Developer"
-        member7.profileImageName = "sriPic"
+        member7.profileImageName = "soloPic"
         
         var member8 = teamMember()
-        member8.memberName = "Abhinav Reddy"
+        member8.memberName = "Sri Rajasekaran"
         member8.groupName = "Web Developer"
-        member8.profileImageName = "abhinavPic"
+        member8.profileImageName = "sriPic"
+        
+        var member9 = teamMember()
+        member9.memberName = "Abhinav Reddy"
+        member9.groupName = "Web Developer"
+        member9.profileImageName = "abhinavPic"
         
         
-        return [member1,member2,member3,member4,member5,member6,member7,member8]
+        
+        
+        return [member1,member2,member3,member4,member5,member6,member7,member8,member9]
     }()
     
     override func viewDidLoad() {
